@@ -9,11 +9,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="" />
+    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/GuestBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/GuestBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/GuestBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/vo/GuestBookVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/write.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/guestbook/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/guestbook/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/includes/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/includes/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/includes/navigation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/main/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/joinform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/joinsuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/loginform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/updateform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/board.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/guestbook.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/mysite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/images/recycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/images/reply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/images/짤랑3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/images/짤랑이2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/js/jquery/jquery-1.9.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -33,6 +73,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2VSzvhYiPY80SkWnycWP2lUbWuK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,7 +87,7 @@
     "jdk.selected.JAVA_MODULE": "zulu-17",
     "last_opened_file_path": "/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15332031",
     "project.structure.side.proportion": "0.26436782",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -55,6 +96,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/mysite03" />
       <recent name="$PROJECT_DIR$/mysite02/src/main/java" />
       <recent name="$PROJECT_DIR$/mysite02/webapp" />
       <recent name="$PROJECT_DIR$/mysite02/webapp/WEB-INF" />
@@ -69,6 +111,11 @@
         <artifact name="mysite02:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/mysite02" />
+          </settings>
+        </artifact>
+        <artifact name="mysite03:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mysite03" />
           </settings>
         </artifact>
       </deployment>
@@ -147,6 +194,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="mysite02:war exploded" />
+          <artifact name="mysite03:war exploded" />
         </option>
       </method>
     </configuration>
@@ -163,12 +211,23 @@
       <workItem from="1694845731839" duration="335000" />
       <workItem from="1694846077426" duration="16000" />
       <workItem from="1694846104988" duration="44000" />
-      <workItem from="1694846160754" duration="676000" />
+      <workItem from="1694846160754" duration="1626000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
