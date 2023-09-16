@@ -9,44 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/GuestBookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/GuestBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/GuestBookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/vo/GuestBookVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/write.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/guestbook/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/guestbook/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/includes/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/includes/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/includes/navigation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/main/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/joinform.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/joinsuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/loginform.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/updateform.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/board.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/guestbook.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/mysite.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/images/recycle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/images/reply.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/images/짤랑3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/images/짤랑이2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/js/jquery/jquery-1.9.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,20 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "zulu-17",
-    "last_opened_file_path": "/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15332031",
-    "project.structure.side.proportion": "0.26436782",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.26436782&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -211,7 +174,7 @@
       <workItem from="1694845731839" duration="335000" />
       <workItem from="1694846077426" duration="16000" />
       <workItem from="1694846104988" duration="44000" />
-      <workItem from="1694846160754" duration="1626000" />
+      <workItem from="1694846160754" duration="1940000" />
     </task>
     <servers />
   </component>
