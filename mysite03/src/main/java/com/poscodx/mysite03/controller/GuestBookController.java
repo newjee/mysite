@@ -1,11 +1,10 @@
 package com.poscodx.mysite03.controller;
 
-import com.poscodx.mysite03.service.GuestBookService;
-import com.poscodx.mysite03.vo.GuestBookVo;
+import com.poscodx.mysite03.service.GuestbookService;
+import com.poscodx.mysite03.vo.GuestbookVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.util.ReflectionUtils;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -18,11 +17,11 @@ import java.util.List;
 public class GuestBookController {
 
     @Autowired
-    private GuestBookService guestBookService;
+    private GuestbookService guestbookService;
 
     @RequestMapping("")
     public String main(Model model) {
-        List<GuestBookVo> list = guestBookService.getContentsList();
+        List<GuestbookVo> list = guestbookService.getContentsList();
         model.addAttribute("list", list);
         return "guestbook/main";
     }
@@ -35,13 +34,13 @@ public class GuestBookController {
 
     @RequestMapping(value = "/delete/{no}", method = RequestMethod.POST)
     public String delete(@PathVariable("no") Long no, @RequestParam(value = "password", required = true, defaultValue = "") String password) {
-        guestBookService.deleteContents(no, password);
+        guestbookService.deleteContents(no, password);
         return "redirect:/guestbook";
     }
 
     @RequestMapping("add")
-    public String add(GuestBookVo vo) {
-        guestBookService.addContents(vo);
+    public String add(GuestbookVo vo) {
+        guestbookService.addContents(vo);
         return "redirect:/guestbook";
     }
 }

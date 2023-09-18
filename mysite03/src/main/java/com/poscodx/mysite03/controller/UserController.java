@@ -25,14 +25,14 @@ public class UserController {
     }
 
     @RequestMapping(value = "/join", method = RequestMethod.POST)
-    public String join(@Validated UserVo vo) { //Bean Valuedation
-        userService.join(vo);
+    public String join(UserVo userVo) { //Bean Valuedation
+        userService.join(userVo);
         return "redirect:/user/joinsuccess";
     }
 
     @RequestMapping(value = "/joinsuccess", method = RequestMethod.GET)
     public String joinsuccess() {
-        return "user/join";
+        return "user/joinsuccess";
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
@@ -67,8 +67,8 @@ public class UserController {
         return "redirect:/";
     }
 
-    @RequestMapping("/update")
-    public String update(HttpSession session) {
+    @RequestMapping(value = "/update", method = RequestMethod.GET)
+    public String update(HttpSession session, Model model) {
         //나중에 고칠 코드
         //Access Control(접근 제어)
         UserVo authUser = (UserVo) session.getAttribute("authUser");
@@ -77,7 +77,26 @@ public class UserController {
         }
         ////////////////////////////////////////////////////////////////////
 
+        UserVo userVo = userService.getUser(authUser.getNo());
+        model.addAttribute("userVo", userVo);
+
         return "/user/update";
     }
 
+    @RequestMapping(value = "/update", method = RequestMethod.POST)
+    public String update(HttpSession session, UserVo userVo) {
+        UserVo authUser = (UserVo) session.getAttribute("authUser");
+        if (authUser == null) {
+            return "redirect:/user/login";
+        }
+        ////////////////////////////////////////////////////////////////////
+        userVo.setNo(authUser.getNo());
+
+        userService.update(userVo);
+
+        authUser.setName(userVo.getName());
+
+        return "redirect:/user/update";
+    }
 }
+

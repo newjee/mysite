@@ -10,17 +10,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/MailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/vo/UserVo.java" afterDir="false" />
+    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="mysite03 user구현">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/GuestbookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers/guestbook.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/joinform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/GuestBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/GuestBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/GuestBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/GuestbookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/GuestBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/vo/GuestBookVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/vo/GuestbookVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/join.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/joinsuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/joinsuccess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/loginform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/updateform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/update.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -65,9 +75,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "zulu-17",
-    "last_opened_file_path": "/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project",
+    "last_opened_file_path": "/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project/mysite03/src/main/resources/mybatis/mappers",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15332031",
@@ -80,11 +91,11 @@
       <recent name="com.poscodx.mysite03.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/mysite03" />
       <recent name="$PROJECT_DIR$/mysite02/src/main/java" />
       <recent name="$PROJECT_DIR$/mysite02/webapp" />
-      <recent name="$PROJECT_DIR$/mysite02/webapp/WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.poscodx.mysite03.repository" />
@@ -206,8 +217,16 @@
       <workItem from="1694845731839" duration="335000" />
       <workItem from="1694846077426" duration="16000" />
       <workItem from="1694846104988" duration="44000" />
-      <workItem from="1694846160754" duration="9332000" />
+      <workItem from="1694846160754" duration="24020000" />
     </task>
+    <task id="LOCAL-00001" summary="mysite03 user구현">
+      <created>1695001936779</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695001936779</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +242,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mysite03 user구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysite03 user구현" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/update.jsp</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
