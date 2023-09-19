@@ -1,5 +1,6 @@
 package com.poscodx.mysite02.dao;
 
+import com.poscodx.mysite02.exception.UserRepositoryException;
 import com.poscodx.mysite02.vo.GuestbookVo;
 import com.poscodx.mysite02.vo.UserVo;
 
@@ -51,7 +52,10 @@ public class UserDao {
 
 
         } catch (SQLException e) {
+            //1. 로깅
             System.out.println("Error:" + e);
+            //2. 사과page
+            throw new UserRepositoryException();
         } finally {
             try {
                 if(pstmt1 != null) {

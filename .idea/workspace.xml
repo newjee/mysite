@@ -10,18 +10,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="mysite03 mybatis">
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/aspect/MeasureExecutionTimeAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/BoardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers/board.xml" afterDir="false" />
+    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="mysite03 exception">
+      <change afterPath="$PROJECT_DIR$/mysite02/src/main/java/com/poscodx/mysite02/exception/UserRepositoryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite02/src/main/webapp/WEB-INF/views/error/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite02/src/main/webapp/WEB-INF/views/error/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/exception/GloabalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/error/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/error/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/error/exception.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/GuestbookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/GuestbookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite02/src/main/java/com/poscodx/mysite02/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite02/src/main/java/com/poscodx/mysite02/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Poscodx jstl jsp" />
         <option value="Class" />
       </list>
     </option>
@@ -70,7 +72,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "zulu-17",
-    "last_opened_file_path": "/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project/mysite03/src/main/resources/mybatis/mappers",
+    "last_opened_file_path": "/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project/mysite03/src/main/webapp/WEB-INF/views/error",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15332031",
@@ -83,11 +85,11 @@
       <recent name="com.poscodx.mysite03.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/error" />
+      <recent name="$PROJECT_DIR$/mysite02/src/main/webapp/WEB-INF/views" />
       <recent name="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/mysite03" />
-      <recent name="$PROJECT_DIR$/mysite02/src/main/java" />
-      <recent name="$PROJECT_DIR$/mysite02/webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.poscodx.mysite03.service" />
@@ -209,7 +211,7 @@
       <workItem from="1694845731839" duration="335000" />
       <workItem from="1694846077426" duration="16000" />
       <workItem from="1694846104988" duration="44000" />
-      <workItem from="1694846160754" duration="32459000" />
+      <workItem from="1694846160754" duration="37243000" />
     </task>
     <task id="LOCAL-00001" summary="mysite03 user구현">
       <created>1695001936779</created>
@@ -225,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695025604055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mysite03 AOP">
+      <created>1695093572896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695093572896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +254,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mysite03 user구현" />
     <MESSAGE value="mysite03 mybatis" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysite03 mybatis" />
+    <MESSAGE value="mysite03 AOP" />
+    <MESSAGE value="mysite03 exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysite03 exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,6 +265,11 @@
           <url>file://$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/update.jsp</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/error/404.jsp</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
