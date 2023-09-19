@@ -19,6 +19,8 @@
         <property name="username" value="shopping" />
         <property name="password" value="shopping" />
     </bean>
+    <!-- auto proxy -->
+    <aop:aspectj-autoproxy />
 
     <!-- SqlSessionFactory -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
@@ -32,7 +34,7 @@
     </bean>
 
     <context:annotation-config />
-    <context:component-scan base-package="com.poscodx.mysite03.service, com.poscodx.mysite03.repository">
+    <context:component-scan base-package="com.poscodx.mysite03.service, com.poscodx.mysite03.repository, com.poscodx.mysite03.aspect">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository" />
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Service" />
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Component" />

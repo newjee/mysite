@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.poscodx.mysite03.vo.GuestbookVo;
+import org.springframework.util.StopWatch;
 
 @Repository
 public class GuestbookRepository {
@@ -31,5 +32,8 @@ public class GuestbookRepository {
 
     public List<GuestbookVo> findAll() {
         return sqlSession.selectList("guestbook.findAll");
+
     }
+
+
 }
