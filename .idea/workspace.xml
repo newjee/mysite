@@ -10,19 +10,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="mysite03 exception">
-      <change afterPath="$PROJECT_DIR$/mysite02/src/main/java/com/poscodx/mysite02/exception/UserRepositoryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite02/src/main/webapp/WEB-INF/views/error/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite02/src/main/webapp/WEB-INF/views/error/500.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/exception/GloabalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/error/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/error/500.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/error/exception.jsp" afterDir="false" />
+    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="mysite03 admin 구현">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/repository/SiteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/security/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/security/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/security/AuthUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/security/AuthUserHandlerMethodArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/security/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/security/LogoutInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/service/SiteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/vo/BoardVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/vo/SiteVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/web/ContextLoadListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/web/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/web/utils/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers/site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/admin/board.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/admin/guestbook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/admin/include/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/admin/include/navigation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/admin/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/admin/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/reply.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/admin/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/admin/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite02/src/main/java/com/poscodx/mysite02/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite02/src/main/java/com/poscodx/mysite02/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/aspect/MeasureExecutionTimeAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/aspect/MeasureExecutionTimeAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/BoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/GuestBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/GuestBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/exception/GloabalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/exception/GloabalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/BoardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/GuestbookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/repository/GuestbookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/BoardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/GuestbookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/service/GuestbookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/service/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/vo/BoardVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/vo/GuestbookVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/vo/GuestbookVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite03/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/vo/UserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/configuration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers/board.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers/board.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/modify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/board/write.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +74,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Poscodx jstl jsp" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -65,33 +110,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "zulu-17",
-    "last_opened_file_path": "/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project/mysite03/src/main/webapp/WEB-INF/views/error",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15332031",
-    "project.structure.side.proportion": "0.26436782",
-    "settings.editor.selected.configurable": "spring"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project/mysite03/src/main/webapp/assets/css/admin&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.26436782&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.poscodx.mysite.vo" />
+      <recent name="com.poscodx.mysite.security" />
       <recent name="com.poscodx.mysite03.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css/admin" />
+      <recent name="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/admin" />
+      <recent name="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/web" />
       <recent name="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/error" />
       <recent name="$PROJECT_DIR$/mysite02/src/main/webapp/WEB-INF/views" />
-      <recent name="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/mysite03" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.poscodx.web.utils" />
       <recent name="com.poscodx.mysite03.service" />
       <recent name="com.poscodx.mysite03.repository" />
       <recent name="com.poscodx.mysite03.vo" />
@@ -105,14 +153,14 @@
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="mysite02:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/mysite02" />
-          </settings>
-        </artifact>
         <artifact name="mysite03:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/mysite03" />
+          </settings>
+        </artifact>
+        <artifact name="mysite02:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mysite02" />
           </settings>
         </artifact>
       </deployment>
@@ -190,8 +238,8 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="mysite02:war exploded" />
           <artifact name="mysite03:war exploded" />
+          <artifact name="mysite02:war exploded" />
         </option>
       </method>
     </configuration>
@@ -211,7 +259,10 @@
       <workItem from="1694845731839" duration="335000" />
       <workItem from="1694846077426" duration="16000" />
       <workItem from="1694846104988" duration="44000" />
-      <workItem from="1694846160754" duration="37243000" />
+      <workItem from="1694846160754" duration="43101000" />
+      <workItem from="1695119245851" duration="4564000" />
+      <workItem from="1695168211543" duration="25714000" />
+      <workItem from="1695254456163" duration="1129000" />
     </task>
     <task id="LOCAL-00001" summary="mysite03 user구현">
       <created>1695001936779</created>
@@ -234,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695093572896</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mysite03 exception">
+      <created>1695105316390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695105316390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +314,8 @@
     <MESSAGE value="mysite03 mybatis" />
     <MESSAGE value="mysite03 AOP" />
     <MESSAGE value="mysite03 exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysite03 exception" />
+    <MESSAGE value="mysite03 admin 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysite03 admin 구현" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
