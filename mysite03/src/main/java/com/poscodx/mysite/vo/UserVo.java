@@ -1,10 +1,24 @@
 package com.poscodx.mysite.vo;
 
+import org.hibernate.validator.constraints.Length;
+
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
+
 public class UserVo {
 
     private Long no;
+
+    @NotEmpty
+    @Length(min = 2, max = 8)
     private String name;
+
+    @NotEmpty
+    @Email
     private String email;
+
+    @NotEmpty
+    @Length(min = 4, max = 16)
     private String password;
     private String gender;
     private String joinDate;

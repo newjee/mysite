@@ -1,10 +1,12 @@
 package com.poscodx.mysite.controller;
 
 import com.poscodx.mysite.security.Auth;
-import com.poscodx.mysite.service.FileUploadService;
+import com.poscodx.mysite.service.FileuploadService;
 import com.poscodx.mysite.service.SiteService;
 import com.poscodx.mysite.vo.SiteVo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,11 +23,18 @@ import java.util.Map;
 @Controller
 public class AdminController {
 
+
+    @Autowired
+    private ApplicationContext applicationContext;
+
+    @Autowired
+    private ApplicationEventPublisher applicationEventPublisher;
+
     @Autowired
     private SiteService siteService;
 
     @Autowired
-    private FileUploadService fileUploadService;
+    private FileuploadService fileuploadService;
 
     @RequestMapping("")
     public String main(Model model) {
@@ -40,12 +49,14 @@ public class AdminController {
             MultipartFile file,
             SiteVo siteVo) {
 
-        System.out.println(siteVo + "<<<<<<sitevo");
 
-        String url = FileUploadService.restore(file);
-        siteVo.setProfile(url);
+        String url = FileuploadService.restore(file);
+        if(url != null) {
+            siteVo.setProfile(url);
+        }
 
-        siteService.UpdateSite(siteVo);
+        System.out.println("$$$$$$controller"+ siteVo + "");
+        siteService.updateSite(siteVo);
         return "redirect:/admin";
     }
 

@@ -12,7 +12,7 @@ import java.util.Calendar;
 
 
 @Service
-public class FileUploadService {
+public class FileuploadService {
     private static String SAVE_PATH = "/Users/nabi/Study/poscodx2023/00tools/mysite-uploads";
     private static String URL_PATH = "/images" ;
 

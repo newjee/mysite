@@ -11,7 +11,8 @@
 </head>
 <body>
 	<div id="container">
-		<c:import url="/WEB-INF/views/admin/include/header.jsp" />
+		<c:import url=
+						  "/WEB-INF/views/admin/include/header.jsp" />
 		<div id="wrapper">
 			<div id="content">
 				<div id="site-form">
@@ -23,7 +24,7 @@
 						<input id="welcomeMessage" name="welcome" type="text" value="${siteVo.welcome}">
 
 						<label class="block-label">프로필 이미지</label>
-						<img id="profile" src="${pageContext.request.contextPath }${siteVo.profile }">
+						<img style="width:120px" id="profile" src="${pageContext.request.contextPath }${siteVo.profile }">
 						<input type="file" name="file">
 
 						<label class="block-label">사이트 설명</label>
