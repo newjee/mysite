@@ -9,29 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="mysite03 AdminPage #finish">
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/event/TitleUpdatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/event/TitleUpdatedEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite03/src/main/resources/messages/messages_ko.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="mysite03 AdminPage develop modifying........ ...">
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/event/ApplicationContextEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/interceptor/SiteIntercepotor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/BoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/repository/SiteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/repository/SiteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/service/FileUploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/service/FileuploadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/service/SiteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/service/SiteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/vo/SiteVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/vo/SiteVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/vo/UserVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers/site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/resources/mybatis/mappers/site.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/admin/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/includes/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/includes/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/main/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/main/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views/user/join.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,21 +63,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "zulu-17",
-    "last_opened_file_path": "/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project/mysite03/src/main/resources/messages",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15332031",
-    "project.structure.side.proportion": "0.26436782",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project/mysite03/src/main/resources/messages&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.26436782&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.poscodx.mysite.vo" />
@@ -226,7 +212,8 @@
       <workItem from="1695168211543" duration="25714000" />
       <workItem from="1695254456163" duration="12482000" />
       <workItem from="1695283743232" duration="17464000" />
-      <workItem from="1695437799519" duration="9817000" />
+      <workItem from="1695437799519" duration="9913000" />
+      <workItem from="1695600528308" duration="6659000" />
     </task>
     <task id="LOCAL-00001" summary="mysite03 user구현">
       <created>1695001936779</created>
@@ -277,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695340981443</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="mysite03 AdminPage develop modifying........ ...">
+      <created>1695453291186</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695453291186</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +296,8 @@
     <MESSAGE value="mysite03 admin 구현" />
     <MESSAGE value="mysite03 logback #finish" />
     <MESSAGE value="mysite03 AdminPage #finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysite03 AdminPage #finish" />
+    <MESSAGE value="mysite03 AdminPage develop modifying........ ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="mysite03 AdminPage develop modifying........ ..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

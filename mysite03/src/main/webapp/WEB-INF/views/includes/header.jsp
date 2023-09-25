@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div id="header">
-    <h1>${updated.title }</h1>
+    <h1>${siteVo.title }</h1>
     <ul>
         <c:choose>
             <c:when test="${empty authUser}">

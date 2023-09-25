@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.ServletContext;
 import java.util.Map;
 
 
@@ -27,8 +28,9 @@ public class AdminController {
     @Autowired
     private ApplicationContext applicationContext;
 
+    // interceptor 주입
     @Autowired
-    private ApplicationEventPublisher applicationEventPublisher;
+    private ServletContext servletContext;
 
     @Autowired
     private SiteService siteService;
@@ -55,8 +57,11 @@ public class AdminController {
             siteVo.setProfile(url);
         }
 
+
         System.out.println("$$$$$$controller"+ siteVo + "");
         siteService.updateSite(siteVo);
+        servletContext.setAttribute("siteVo",siteVo);
+
         return "redirect:/admin";
     }
 

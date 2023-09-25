@@ -44,7 +44,6 @@ public class UserController {
             model.addAllAttributes(result.getModel());
 //            model.getAttribute("userVo", userVo);
             return "user/join";
-
         }
         userService.join(userVo);
         return "redirect:/user/joinsuccess";

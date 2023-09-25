@@ -2,8 +2,6 @@ package com.poscodx.mysite.controller;
 
 import java.util.Map;
 
-import javax.servlet.http.HttpSession;
-
 import com.poscodx.mysite.security.Auth;
 import com.poscodx.mysite.security.AuthUser;
 import org.springframework.beans.factory.annotation.Autowired;
