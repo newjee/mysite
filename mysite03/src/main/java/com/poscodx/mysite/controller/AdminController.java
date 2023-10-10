@@ -4,6 +4,7 @@ import com.poscodx.mysite.security.Auth;
 import com.poscodx.mysite.service.FileuploadService;
 import com.poscodx.mysite.service.SiteService;
 import com.poscodx.mysite.vo.SiteVo;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationEventPublisher;
@@ -24,7 +25,7 @@ import java.util.Map;
 @Controller
 public class AdminController {
 
-
+    // applicationContext 활용
     @Autowired
     private ApplicationContext applicationContext;
 
@@ -36,7 +37,7 @@ public class AdminController {
     private SiteService siteService;
 
     @Autowired
-    private FileuploadService fileuploadService;
+    private FileuploadServiceploadService fileuploadService;
 
     @RequestMapping("")
     public String main(Model model) {
@@ -52,15 +53,22 @@ public class AdminController {
             SiteVo siteVo) {
 
 
-        String url = FileuploadService.restore(file);
-        if(url != null) {
-            siteVo.setProfile(url);
+        String profile = FileuploadService.restore(file);
+        if(profile != null) {
+            siteVo.setProfile(profile);
         }
 
+        SiteVo site = applicationContext.getBean(SiteVo.class);
 
         System.out.println("$$$$$$controller"+ siteVo + "");
         siteService.updateSite(siteVo);
         servletContext.setAttribute("siteVo",siteVo);
+
+//        site.setTitle(siteVo.getTitle());
+//        site.setWelcome(siteVo.getWelcome());
+//        site.setProfile(siteVo.getProfile());
+//        site.setDescription(siteVo.getDescription());
+        BeanUtils.copyProperties(siteVo, site);
 
         return "redirect:/admin";
     }

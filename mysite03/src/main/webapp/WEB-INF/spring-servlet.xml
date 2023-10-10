@@ -35,8 +35,6 @@
 	<!--  Default servlet Handler -->
     <mvc:default-servlet-handler/>
 
-	<!-- Application ContextEventListener-->
-	<bean class="com.poscodx.mysite.event.ApplicationContextEventListener" />
 
 
 	<context:annotation-config />

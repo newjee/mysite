@@ -15,11 +15,10 @@ public class UserService {
     private UserRepository userRepository;
 
     public void join(UserVo vo) {
-        System.out.println(vo);
 
         userRepository.insert(vo);
+        
 
-        System.out.println(vo);
 
         // mailSender.send(vo.getEmail(), "", "");
     }
@@ -32,7 +31,6 @@ public class UserService {
         return userRepository.findByNo(no);
     }
 
-    public void update(UserVo userVo) {
-        userRepository.update(userVo);
-    }
+
+
 }
