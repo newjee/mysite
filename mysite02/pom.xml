@@ -4,11 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.poscodx</groupId>
-        <artifactId>mysite-practice</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
+<!--    <parent>-->
+<!--        <groupId>com.poscodx</groupId>-->
+<!--        <artifactId>mysite-practice</artifactId>-->
+<!--        <version>1.0-SNAPSHOT</version>-->
+<!--    </parent>-->
+
+<!--    부모한테 받은 애는 복붙.... -->
+    <groupId>com.poscodx</groupId>
+    <version>1.0-SNAPSHOT</version>
+
     <artifactId>mysite02</artifactId>
     <packaging>war</packaging>
 
