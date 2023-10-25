@@ -37,7 +37,7 @@ public class AdminController {
     private SiteService siteService;
 
     @Autowired
-    private FileuploadServiceploadService fileuploadService;
+    private FileuploadService fileuploadService;
 
     @RequestMapping("")
     public String main(Model model) {

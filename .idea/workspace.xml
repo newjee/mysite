@@ -2,23 +2,143 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="mysite03:war exploded" />
-      <artifact name="mysite04:war exploded" />
+      <artifact name="mysite06:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="# mysite05 finish...">
-      <change afterPath="$PROJECT_DIR$/mysite06/pom.xml" afterDir="false" />
+    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="# project struct 변경">
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/BootInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/MySiteApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/aspect/MeasureExecutionTimeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/config/MvcViewProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/controller/GalleryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/controller/GuestbookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/controller/api/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/dto/JsonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/event/ApplicationContextEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/exception/FileUploadServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/exception/UserRepositoryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/interceptor/SiteInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/repository/GuestbookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/repository/SiteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/security/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/security/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/security/AuthUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/security/AuthUserHandlerMethodArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/security/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/security/LogoutInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/service/FileUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/service/GalleryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/service/GuestbookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/service/SiteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/vo/BoardVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/vo/GalleryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/vo/GuestbookVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/vo/SiteVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/vo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/web/util/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/css/admin/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/css/admin/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/css/board.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/css/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/css/guestbook.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/css/mysite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/gallery-examples/im9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/delete-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/gallery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/loopy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/recycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/reply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/js/jquery/jquery-1.9.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/js/jquery/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/js/lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/mybatis/configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/mybatis/mappers/board.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/mybatis/mappers/guestbook.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/mybatis/mappers/site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/mybatis/mappers/user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/web/fileupload/fileupload.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/resources/web/messages/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/admin/board.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/admin/guestbook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/admin/include/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/admin/include/navigation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/admin/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/admin/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/board/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/board/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/board/reply.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/board/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/board/write.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/error/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/error/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/error/exception.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/gallery/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/guestbook/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/guestbook/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/includes/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/includes/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/includes/navigation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/main/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/user/join.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/user/joinsuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/user/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06new/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06new/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06new/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06new/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06new/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06new/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06new/src/main/java/com/poscodx/mysite06new/Mysite06newApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06new/src/main/java/com/poscodx/mysite06new/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06new/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06new/src/test/java/com/poscodx/mysite06new/Mysite06newApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite04/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite05/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/java/com/poscodx/mysite/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite03/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite03/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite05/src/main/resources/com/poscodx/mysite/config/app/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mysite05/src/main/resources/com/poscodx/mysite/config/app/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite05/src/main/resources/com/poscodx/mysite/config/web/fileupload.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mysite05/src/main/resources/com/poscodx/mysite/config/web/fileupload.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,21 +186,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project/mysite04/src/main&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.26436782&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "zulu-17",
+    "last_opened_file_path": "/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project/mysite06/src/main/resources/assets/images",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15332031",
+    "project.structure.side.proportion": "0.26436782",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.lang"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.poscodx.mysite.repository" />
@@ -89,42 +213,57 @@
       <recent name="com.poscodx.mysite03.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mysite04/src/main" />
-      <recent name="$PROJECT_DIR$/mysite04/src/main/resources" />
-      <recent name="$PROJECT_DIR$/mysite04/src/main/java" />
-      <recent name="$PROJECT_DIR$/mysite03/src/main/webapp/WEB-INF/views" />
-      <recent name="$PROJECT_DIR$/mysite03/src/main/webapp/assets/css" />
+      <recent name="$PROJECT_DIR$/mysite06/src/main/resources/assets/images" />
+      <recent name="$PROJECT_DIR$/mysite06new" />
+      <recent name="$PROJECT_DIR$/mysite06new/src" />
+      <recent name="$PROJECT_DIR$/mysite06/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mysite06/src/main/resources/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysite06/src/main/resources/web" />
+      <recent name="$PROJECT_DIR$/mysite06/src/main/resources" />
       <recent name="$PROJECT_DIR$/mysite03/src/main/webapp/assets/js/jquery" />
       <recent name="$PROJECT_DIR$/mysite03/src/main/webapp/assets/js" />
       <recent name="$PROJECT_DIR$/mysite03/src/main/webapp/assets/images" />
-      <recent name="$PROJECT_DIR$/mysite03/src/main/webapp/assets" />
-      <recent name="$PROJECT_DIR$/mysite03/src/main/resources/messages" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.poscodx.mysite.config" />
       <recent name="com.poscodx.mysite.exception" />
       <recent name="com.poscodx.mysite.service" />
       <recent name="com.poscodx.web.utils" />
       <recent name="com.poscodx.mysite03.service" />
-      <recent name="com.poscodx.mysite03.repository" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.8.0">
+    <configuration name="MySiteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="mysite06" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.poscodx.mysite.MySiteApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.poscodx.mysite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mysite06newApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite06new" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.poscodx.mysite06new.Mysite06newApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.8.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/mysite04" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/mysite06" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="mysite03:war exploded">
+        <artifact name="mysite06:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/mysite03" />
-          </settings>
-        </artifact>
-        <artifact name="mysite04:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/mysite04" />
+            <option name="CONTEXT_PATH" value="/mysite06" />
           </settings>
         </artifact>
       </deployment>
@@ -202,10 +341,20 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="mysite04:war exploded" />
+          <artifact name="mysite06:war exploded" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Mysite06newApplication" />
+      <item itemvalue="Spring Boot.MySiteApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.8.0" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MySiteApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringGeneralSettings">
@@ -238,6 +387,12 @@
       <workItem from="1696937569179" duration="628000" />
       <workItem from="1696982766511" duration="519000" />
       <workItem from="1696983297144" duration="19000" />
+      <workItem from="1696983325291" duration="6012000" />
+      <workItem from="1696990522825" duration="4728000" />
+      <workItem from="1696998838250" duration="1653000" />
+      <workItem from="1697000501015" duration="6315000" />
+      <workItem from="1697092105826" duration="1339000" />
+      <workItem from="1698196509652" duration="8151000" />
     </task>
     <task id="LOCAL-00001" summary="mysite03 user구현">
       <created>1695001936779</created>
@@ -323,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696928083198</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="# project struct 변경">
+      <created>1696983425101</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696983425101</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +515,8 @@
     <MESSAGE value="mysite03 Title ApplicationContext finish..." />
     <MESSAGE value="# mysite04, 05 finish..." />
     <MESSAGE value="# mysite05 finish..." />
-    <option name="LAST_COMMIT_MESSAGE" value="# mysite05 finish..." />
+    <MESSAGE value="# project struct 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="# project struct 변경" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
