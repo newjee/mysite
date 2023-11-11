@@ -7,10 +7,10 @@
 		select no, name, role
 		  from user
 		 where email=#{email }
-		   and password=SHA2(#{password },256)
+		   and password=password(#{password })
 		]]>
 	</select>
-
+	
 	<select id="findByNo" resultType="uservo" parameterType="long">
 		<![CDATA[
 		select no, name, email, gender
@@ -19,11 +19,11 @@
 		]]>
 	</select>
 
-	<select id="findByEmail" resultType="uservo" parameterType="long">
+	<select id="findByEmail" resultType="uservo" parameterType="string">
 		<![CDATA[
-		select no
-		from user
-		where no = #{no }
+		elect no
+		  from user
+		 where email = #{email }
 		]]>
 	</select>
 	
@@ -31,7 +31,7 @@
 		<![CDATA[
 		insert
 		  into user
-	    values (null, #{name }, #{email }, SHA2(#{password },256), #{gender }, current_date(), 'USER')
+	    values (null, #{name }, #{email }, password(#{password }), #{gender }, current_date(), 'USER')
 		]]>
 		<selectKey keyProperty="no" resultType="long" order="AFTER">
 			<![CDATA[
@@ -49,10 +49,9 @@
 			</when>
 			<otherwise>
 				<![CDATA[
-				update user set name=#{name }, gender=#{gender }, password=SHA2(#{password },256) where no=#{no }
+				update user set name=#{name }, gender=#{gender }, password=password(#{password }) where no=#{no }
 				]]>
 			</otherwise>
 		</choose>		
 	</update> 
 </mapper>
-

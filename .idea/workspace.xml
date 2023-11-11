@@ -2,17 +2,70 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="mysite06:war exploded" />
+      <artifact name="backend:Web exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="# ajax-email">
+    <list default="true" id="8ec3e988-a9a1-4777-b6fc-1d03087af35b" name="Changes" comment="# ajax-chkemail#2">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/backend_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mysite07_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite06/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/admin/include/navigation.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/includes/navigation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/controller/GalleryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/controller/GuestbookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/dto/ResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/dto/SignInResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/dto/SignUpDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/entity/Gallery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/exception/FileUploadServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/repository/GalleryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/repository/GuestbookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/service/FileUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/service/GalleryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/service/GalleryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/service/GuestbookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07/service/GuestbookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/main/resources/web/fileupload/fileupload.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite07/backend/src/test/java/com/poscodx/backend/BackendApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/BootInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/BootInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/controller/GuestbookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/controller/GuestbookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/controller/api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/controller/api/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/dto/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/dto/JsonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/java/com/poscodx/mysite/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/resources/assets/images/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/resources/mybatis/mappers/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/resources/mybatis/mappers/user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/resources/web/fileupload/fileupload.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/resources/web/fileupload/fileupload.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/gallery/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/gallery/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/user/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mysite06/src/main/webapp/WEB-INF/views/user/join.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,15 +77,15 @@
       <list>
         <option value="Poscodx jstl jsp" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mysite07/backend" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -71,12 +124,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "zulu-17",
-    "last_opened_file_path": "/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project/mysite06/src/main/resources/assets/images",
+    "last_opened_file_path": "/Users/nabi/Study/poscodx2023/00tools/IdeaProjects/mysite-project/mysite07/backend/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15332031",
     "project.structure.side.proportion": "0.26436782",
-    "settings.editor.selected.configurable": "preferences.rainbow.brackets.lang"
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -87,11 +140,11 @@
       <recent name="com.poscodx.mysite03.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysite07/backend/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mysite07/backend/src/main/java/com/poscodx/mysite07" />
       <recent name="$PROJECT_DIR$/mysite06/src/main/resources/assets/images" />
       <recent name="$PROJECT_DIR$/mysite06new" />
       <recent name="$PROJECT_DIR$/mysite06new/src" />
-      <recent name="$PROJECT_DIR$/mysite06/src/main/resources" />
-      <recent name="$PROJECT_DIR$/mysite06/src/main/resources/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mysite06/src/main/resources/web" />
@@ -101,14 +154,40 @@
       <recent name="$PROJECT_DIR$/mysite03/src/main/webapp/assets/images" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.poscodx.mysite07.service" />
       <recent name="com.poscodx.mysite.config" />
       <recent name="com.poscodx.mysite.exception" />
       <recent name="com.poscodx.mysite.service" />
       <recent name="com.poscodx.web.utils" />
-      <recent name="com.poscodx.mysite03.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.8.0">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Mysite07Application (1)">
+    <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.poscodx.backend.BackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySiteApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite07" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.poscodx.mysite.MySiteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MySiteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="mysite06" />
@@ -130,14 +209,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Mysite07Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.poscodx.mysite07.Mysite07Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.poscodx.mysite07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mysite07Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite07" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.poscodx.mysite07.Mysite07Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.8.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/mysite06" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="mysite06:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/mysite06" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -220,12 +318,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.BackendApplication" />
+      <item itemvalue="Spring Boot.Mysite07Application" />
+      <item itemvalue="Spring Boot.MySiteApplication (1)" />
       <item itemvalue="Spring Boot.Mysite06newApplication" />
+      <item itemvalue="Spring Boot.Mysite07Application (1)" />
       <item itemvalue="Spring Boot.MySiteApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.8.0" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Mysite07Application (1)" />
         <item itemvalue="Spring Boot.MySiteApplication" />
       </list>
     </recent_temporary>
@@ -266,7 +369,19 @@
       <workItem from="1696998838250" duration="1653000" />
       <workItem from="1697000501015" duration="6315000" />
       <workItem from="1697092105826" duration="1339000" />
-      <workItem from="1698196509652" duration="10310000" />
+      <workItem from="1698196509652" duration="11123000" />
+      <workItem from="1699245295182" duration="980000" />
+      <workItem from="1699248428658" duration="3570000" />
+      <workItem from="1699407022390" duration="189000" />
+      <workItem from="1699507097279" duration="394000" />
+      <workItem from="1699507503542" duration="538000" />
+      <workItem from="1699508052609" duration="213000" />
+      <workItem from="1699508304229" duration="3411000" />
+      <workItem from="1699512439314" duration="66000" />
+      <workItem from="1699512514174" duration="1469000" />
+      <workItem from="1699514098157" duration="1756000" />
+      <workItem from="1699517062399" duration="121000" />
+      <workItem from="1699517230351" duration="28507000" />
     </task>
     <task id="LOCAL-00001" summary="mysite03 user구현">
       <created>1695001936779</created>
@@ -366,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698209275466</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="# ajax-chkemail#2">
+      <created>1698223338766</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698223338766</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +520,8 @@
     <MESSAGE value="# mysite05 finish..." />
     <MESSAGE value="# project struct 변경" />
     <MESSAGE value="# ajax-email" />
-    <option name="LAST_COMMIT_MESSAGE" value="# ajax-email" />
+    <MESSAGE value="# ajax-chkemail#2" />
+    <option name="LAST_COMMIT_MESSAGE" value="# ajax-chkemail#2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
